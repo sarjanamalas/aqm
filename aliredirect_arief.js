@@ -1,10 +1,3 @@
-// simple redirect by sarjanamalas
-// slugs setting disini
-// affkey flexible pasang di url, bukan script. ( generate di halaman portals.aliexpress.com )
-
-// base url ->  https://domain.blogspot.com/slugs/kodeaffiliate/idproduk.html
-// contoh -> https://domain.blogspot.com/offers/_afk09s/40080090011.html
-
 var urlmain = document.URL;
 var slugs = document.URL.split("/")[3];
 var affkey = document.URL.split("/")[4];
