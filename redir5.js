@@ -12,13 +12,7 @@ var redSites = [
 var randomLinks = redSites[Math.floor(Math.random()*redSites.length)];
 
 if (slugs) {
-  var redir = 'http://s.click.aliexpress.com/deep_link.htm?aff_short_key='+affkey+'&dl_target_url=https://www.aliexpress.com/item/'+id+'';
+  window.location = 'http://s.click.aliexpress.com/deep_link.htm?aff_short_key='+affkey+'&dl_target_url=https://www.aliexpress.com/item/'+id+'';
 } else {
-  var redir = randomLinks
+  window.location = randomLinks;
 }
-
-setTimeout(
-  function(){
-    window.location = redir
-  },
-0); 
