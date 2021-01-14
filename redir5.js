@@ -1,3 +1,6 @@
+// AUTOREDIRECT JS By Sarjanamalas
+// Youtube : https://www.youtube.com/channel/UCntVLuF_IylHa3v0MavA-2w
+
 var urlmain = document.URL;
 var slugs = document.URL.split("/")[3];
 var affkey = document.URL.split("/")[4];
