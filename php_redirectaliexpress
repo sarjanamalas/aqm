@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GO TO ALIEXPRESS</title>
+</head>
+<body>
+<?php
+$aff = $_GET['secretkey'];
+$slugs = $_GET['type'];
+$productid = $_GET['productid'];
+$namasite =$_SERVER['SERVER_NAME'];
+$delay = '0';
+$dp = 'vid';
+
+echo '<script>
+         setTimeout(function(){
+            window.location.href = "https://s.click.aliexpress.com/deep_link.htm?aff_short_key='.$aff.'&dp='.$dp.'&dl_target_url=https%3A%2F%2Fwww.aliexpress.com%2Fitem%2F'.$productid.'";
+         }, '.$delay.');
+      </script>';
+
+?>
+</body>
+</html>
