@@ -4,4 +4,4 @@ setTimeout(
   function(){
     window.location = redir;
   },
-5000);
+7000);
