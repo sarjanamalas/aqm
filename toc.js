@@ -1,5 +1,4 @@
-<script>
-  // prepare the array by adding level, ID and parent to each item of the array
+// prepare the array by adding level, ID and parent to each item of the array
   function prepare(array) {
     let idt, level, t;
     for (let i = 0, n = array.length; i < n; i++) {
@@ -94,4 +93,3 @@
   document.addEventListener('DOMContentLoaded', () => {
     createToc();
   });
-</script>
